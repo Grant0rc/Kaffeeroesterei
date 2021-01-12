@@ -1,3 +1,4 @@
+ @import "mixins";
 
 * {
   margin: 0;
@@ -7,12 +8,8 @@
 
 body {
   background: blue;
-
-  @media (min-width: 768px) {
-    background: linear-gradient(#e98a00, #f5aa2f);
-  }
-
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
 }
 
 main {
@@ -33,4 +30,7 @@ main {
   background-image:linear-gradient(rgba(0, 0, 0, 0.3)), url(../img/FEND-Coffee-latte-art-3.png);
   background-size: cover;
   background-position: top;
+  @include respond(phone){
+    color: chartreuse;
+  }
 }
