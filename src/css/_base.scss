@@ -1,9 +1,18 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: blue;
 
   @media (min-width: 768px) {
     background: linear-gradient(#e98a00, #f5aa2f);
   }
+
+  font-family: "Roboto", sans-serif;
 }
 
 main {
@@ -14,4 +23,14 @@ main {
       color: var(--div-color);
     }
   }
+}
+
+
+.header {
+  height: 75vh;
+  font-weight: 900;
+  color: white;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3)), url(../img/FEND-Coffee-latte-art-3.png);
+  background-size: cover;
+  background-position: top;
 }
