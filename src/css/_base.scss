@@ -123,5 +123,31 @@ main {
 .shop-preview-container{
   height: 910px;
   width: 100%;
+  @include side-padding;
   background-color: #1A1A1A;
+  padding-top: 60px;
+}
+
+.shop-preview-title{
+  color: white;
+  @include font-h2;
+}
+
+.origins-container{
+  height: 332px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../img/FEND-Coffee-bags-2.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.origins-text{
+  margin-left: 66px;
+  margin-right: 66px;
+  margin-top: 12px;
+  text-align: center;
 }
