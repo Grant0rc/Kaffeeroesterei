@@ -22,6 +22,24 @@ main {
   }
 }
 
+.navbar {
+  position: fixed;
+  height: 55px;
+  width: 100%;
+  padding-right: 24px;
+  padding-left: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .navbar-logo {
+    justify-self: left;
+  }
+  .navbar-menu {
+    justify-self: right;
+  }
+}
+
 
 .header {
   height: 75vh;
@@ -30,7 +48,23 @@ main {
   background-image:linear-gradient(rgba(0, 0, 0, 0.3)), url(../img/FEND-Coffee-latte-art-3.png);
   background-size: cover;
   background-position: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   @include respond(phone){
-    color: chartreuse;
+    .title {
+
+    .header-maintitle {
+      font-size: 64px;
+    }
+    .header-subtitle {
+      font-size: 18px;
+    }
+    }
+    .header-button {
+      margin-top: 103px;
+      padding: 15px;
+  }
   }
 }
