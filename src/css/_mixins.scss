@@ -15,3 +15,8 @@
         @media (min-width: 1920px) {@content};
     }
 }
+
+@mixin side-margin {
+    margin-left: 24px;
+    margin-right: 24px;
+}

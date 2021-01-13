@@ -7,15 +7,14 @@
 }
 
 body {
-  background: blue;
+
+  background:white;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
 }
 
 main {
   div {
-    color: yellow;
-
     @media (min-width: 768px) {
       color: var(--div-color);
     }
@@ -67,4 +66,36 @@ main {
       padding: 15px;
   }
   }
+}
+
+.introduction-container {
+  @include side-margin;
+  margin-top: 60px;
+
+  .intro-title {
+    margin-bottom: 12px;
+    font-size: 36px;
+    font-weight: 900;
+
+  }
+
+  .where-and-when{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.coffee-shop-img {
+    height: 182px;
+    width: 241px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: right;
+}
+
+.coffee-plant-img {
+  height: 160px;
+  width: 241px;
 }
