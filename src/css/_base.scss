@@ -70,6 +70,16 @@ main {
   }
 }
 
+.container-align-center{
+  display: flex;
+  justify-content: center;
+}
+
+.text-white{
+  color: white;
+  text-decoration: none;
+}
+
 .introduction-container {
   @include side-padding;
   margin-top: 60px;
@@ -78,15 +88,13 @@ main {
 }
 .intro-title1 {
     margin-bottom: 20px;
-    font-size: 36px;
-    font-weight: 900;
+    @include font-h2;
   }
   
 .intro-title2 {
     margin-top: 40px;
     margin-bottom: 12px;
-    font-size: 32px;
-    font-weight: 900;
+    @include font-h3;
   }
 
 .where-and-when{
@@ -129,7 +137,6 @@ main {
 }
 
 .shop-preview-title{
-  color: white;
   @include font-h2;
 }
 
@@ -142,7 +149,6 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: white;
 }
 
 .origins-text{
@@ -154,6 +160,10 @@ main {
 
 .made-of-container{
   height: 805px;
+  padding: 60px 25px 35px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
 }
 .made-of-title{
   @include font-h2;
@@ -161,13 +171,40 @@ main {
 .made-of-img-container{
   height: 284px;
   width: 214px;
-  display: flex;
-  align-items:center;
-  justify-content: stretch;
+  margin-top: 35px;
+  margin-bottom: 40px;
 }
 .made-of-img{
-  
+height: 100%;
 }
+.made-of-icon-container{
+  width: 100%;
+}
+.made-of-icons{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.shop-button{
+  margin-top: 40px;
+  margin-bottom: 72px;
+  width: 163px;
+  height: 48px;
+  background-color: #1A1A1A;
+  text-decoration: none;
+  border-radius: 5px;
+  border-width: 2px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+
+}
+.visit-us{
+  @include font-h2;
+}
+
 
 .map-container{
   height: 231px;
@@ -175,6 +212,18 @@ main {
 }
 
 .footer-container{
+  @include side-padding;
+  padding-top: 60px;
   height: 370px;
   background-color: black;
+}
+
+.footer-links-container{
+  display: flex;
+  justify-content: space-around;
+}
+.footer-links{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
 }
