@@ -151,3 +151,30 @@ main {
   margin-top: 12px;
   text-align: center;
 }
+
+.made-of-container{
+  height: 805px;
+}
+.made-of-title{
+  @include font-h2;
+}
+.made-of-img-container{
+  height: 284px;
+  width: 214px;
+  display: flex;
+  align-items:center;
+  justify-content: stretch;
+}
+.made-of-img{
+  
+}
+
+.map-container{
+  height: 231px;
+  background-color: cadetblue;
+}
+
+.footer-container{
+  height: 370px;
+  background-color: black;
+}
