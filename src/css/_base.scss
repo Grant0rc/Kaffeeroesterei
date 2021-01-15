@@ -138,6 +138,30 @@ main {
 
 .shop-preview-title{
   @include font-h2;
+  margin-bottom: 40px;
+}
+.shop-preview{
+  display: flex;
+  flex-wrap: wrap;
+}
+.prices{
+  color: #737373;
+}
+.shop-preview-coffee-img-container{
+  width: 155px;
+  height: 208px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shop-preview-coffee-img{
+  height: 100%;
+}
+.coffee-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .origins-container{
@@ -220,10 +244,9 @@ height: 100%;
 
 .footer-links-container{
   display: flex;
-  justify-content: space-around;
+
 }
 .footer-links{
   display: flex;
   flex-direction: column;
-  align-self: flex-start;
 }
