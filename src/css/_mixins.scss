@@ -24,6 +24,8 @@
 @mixin font-h2{
     font-size: 36px;
     font-weight: 900;
+    line-height: 34px;
+    text-decoration: none;
 }
 
 @mixin font-h3 {
