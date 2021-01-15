@@ -11,7 +11,7 @@ body {
   background:white;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 main {
@@ -20,6 +20,23 @@ main {
       color: var(--div-color);
     }
   }
+}
+
+h1{
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 75px;
+}
+h2{
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 34px;
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 900;
 }
 
 .navbar {
@@ -48,26 +65,30 @@ main {
   background-image:linear-gradient(rgba(0, 0, 0, 0.3)), url(../img/FEND-Coffee-latte-art-3.png);
   background-size: cover;
   background-position: top;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   @include side-padding;
   @include respond(phone){
-    .title {
-
-    .header-maintitle {
-      font-size: 64px;
-    }
-    .header-subtitle {
-      font-size: 18px;
-    }
-    }
-    .header-button {
-      margin-top: 103px;
-      padding: 15px;
+    
   }
-  }
+}
+.header-container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  margin-bottom: 103px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.header-subtitle {
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+}
+.header-button{
+  display: flex;
+  align-self: center;
 }
 
 .container-align-center{
@@ -88,13 +109,11 @@ main {
 }
 .intro-title1 {
     margin-bottom: 20px;
-    @include font-h2;
   }
   
 .intro-title2 {
     margin-top: 40px;
     margin-bottom: 12px;
-    @include font-h3;
   }
 
 .where-and-when{
@@ -137,7 +156,6 @@ main {
 }
 
 .shop-preview-title{
-  @include font-h2;
   margin-bottom: 40px;
 }
 .shop-preview{
@@ -207,9 +225,6 @@ main {
   flex-direction: column;
   align-items:center;
 }
-.made-of-title{
-  @include font-h2;
-}
 .made-of-img-container{
   height: 284px;
   width: 214px;
@@ -223,7 +238,7 @@ height: 100%;
   width: 100%;
 }
 .made-of-icons{
-  
+  margin: 0 15px 0 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -231,7 +246,7 @@ height: 100%;
 }
 .shop-button{
   margin-top: 40px;
-  margin-bottom: 72px;
+  margin-bottom: 60px;
   width: 163px;
   height: 48px;
   background-color: #1A1A1A;
@@ -244,9 +259,8 @@ height: 100%;
 
 }
 .visit-us{
-  @include font-h2;
+  margin-top: 12px;
 }
-
 
 .map-container{
   height: 231px;
