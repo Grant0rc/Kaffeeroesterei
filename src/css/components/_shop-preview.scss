@@ -12,6 +12,7 @@
   .shop-preview{
     display: flex;
     flex-wrap: wrap;
+    height: auto;
   }
   .product-name{
     font-size: 18px;
@@ -33,7 +34,7 @@
     height: 100%;
   }
   .coffee-container{
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: space-around;
     margin-bottom: 40px;
