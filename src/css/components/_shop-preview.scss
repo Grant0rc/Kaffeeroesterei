@@ -1,0 +1,53 @@
+.shop-preview-container{
+    height: 910px;
+    width: 100%;
+    @include side-padding;
+    background-color: #1A1A1A;
+    padding-top: 60px;
+  }
+  
+  .shop-preview-title{
+    margin-bottom: 40px;
+  }
+  .shop-preview{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product-name{
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .prices{
+    color: #737373;
+    margin-bottom: 5px;
+  }
+  .shop-preview-coffee-img-container{
+    width: 155px;
+    height: 208px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .shop-preview-coffee-img{
+    height: 100%;
+  }
+  .coffee-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  .products-button{
+    margin-bottom: 60px;
+    width: 182px;
+    height: 48px;
+    background-color: #1A1A1A;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }

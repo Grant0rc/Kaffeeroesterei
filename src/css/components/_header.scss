@@ -1,0 +1,33 @@
+.header {
+    height: 75vh;
+    font-weight: 900;
+    color: white;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3)), url(../img/FEND-Coffee-latte-art-3.png);
+    background-size: cover;
+    background-position: top;
+    @include side-padding;
+    @include respond(phone){
+      
+    }
+  }
+  .header-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .title {
+    margin-bottom: 103px;
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+  .header-subtitle {
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+  }
+  .header-button{
+    display: flex;
+    align-self: center;
+  }
