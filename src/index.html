@@ -15,23 +15,29 @@
     <include src="navbar.html"></include>
     <include src="header.html"></include>
     <div class="introduction-container">
+      <div class="introduction-sub-container">
+        <div>
       <h2 class="intro-title1">Rösterei & Café</h2>
       <p>Kaffee aus Kiel, direkt gehandelt und geröstet in der eigenen Rösterei, serviert im gemütlichen Café in der Innenstadt.</p>
+          <div class="where">
+            <p>Komm uns besuchen!</p>
+            <p>Fraunhoferstr. 13, Kiel</p>
+          </div>
+          <div class="when">
+            <p>Mo - Fr 8-18 Uhr</p>
+            <p>Sa 11-18 Uhr</p>
+          </div>
+        </div>
+        <div class="img-container">
+          <img class="coffee-shop-img" src="img/FEND-Coffee-shop.png" alt="photo of our coffee shop">
+        </div>
+      </div>
+    </div>
+    <div class="bio-container">
       <div>
-        <div class="where">
-          <p>Komm uns besuchen!</p>
-          <p>Fraunhoferstr. 13, Kiel</p>
-        </div>
-        <div class="when">
-          <p>Mo - Fr 8-18 Uhr</p>
-          <p>Sa 11-18 Uhr</p>
-        </div>
+        <h3 class="intro-title2">Bio und Fair</h3>
+        <div class="bio-text">Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. <br> Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. <br> Und das alles in bester Bio-Qualität.</div>
       </div>
-      <div class="img-container">
-        <img class="coffee-shop-img" src="img/FEND-Coffee-shop.png" alt="photo of our coffee shop">
-      </div>
-      <h3 class="intro-title2">Bio und Fair</h3>
-      <div class="bio-text">Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. <br> Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. <br> Und das alles in bester Bio-Qualität.</div>
       <img class="coffee-plant-img" src="img/FEND-coffee-plant.png" alt="photo of a coffee plant">
     </div>
     <div class="shop-preview-container">
@@ -40,8 +46,6 @@
         <div class="coffee-container">
           <include src="coffee.html"></include>
           <include src="coffee.html"></include>
-        </div>
-        <div class="coffee-container">
           <include src="coffee.html"></include>
           <include src="coffee.html"></include>
         </div>
@@ -58,23 +62,31 @@
 
 <div class="made-of-container">
   <h2 class="made-of-title">Das steckt drin</h2>
+  <div class="made-of-sub-container">
   <div class="made-of-img-container"><img class="made-of-img" src="img/coffee-costa-rica.png" alt="photo of costa rica coffee"></div>
   <div class="made-of-icon-container">
-    <div class="made-of-icons">
-      <img src="img/icon-coffee-cup.png" alt="*">
-      <img src="img/icon-coffee-shovel-large.png" alt="*">
-      <img src="img/icon-coffee-plant.png" alt="*">
-    </div>
-    <div class="made-of-icons">
-      <p class="made-of-icon-desc">Bester Geschmack</p>
-      <p class="made-of-icon-desc">Fair gehandelt</p>
-      <p class="made-of-icon-desc">Bio Qualität</p>
+    <div class="made-of-icon-sub-container">
+      <div class="made-of-icons">
+        <div class="icon-desc">
+          <img src="img/icon-coffee-cup.png" alt="*">
+          <p class="made-of-icon-desc">Bester Geschmack</p>
+        </div>
+        <div class="icon-desc">
+          <img src="img/icon-coffee-shovel-large.png" alt="*">
+          <p class="made-of-icon-desc">Fair gehandelt</p>
+        </div>
+        <div class="icon-desc">
+          <img src="img/icon-coffee-plant.png" alt="*">
+          <p class="made-of-icon-desc">Bio Qualität</p>
+        </div>
+      </div>
     </div>
     <div class="container-align-center">
       <a class="shop-button text-white" href="*">zum Shop</a>
     </div>
-    <h2 class="visit-us">Komm vorbei</h2>
   </div>
+</div>
+  <h2 class="visit-us">Komm vorbei</h2>
 </div>
 
 <div class="map-container">

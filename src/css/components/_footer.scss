@@ -1,12 +1,23 @@
 .footer-container{
     @include side-padding;
     padding-top: 60px;
-    height: 370px;
+    height: 50vh;
     background-color: black;
+
+    @include respond(desktop){
+      height: 40vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
   }
   .footer-title{
     font-size: 24px;
     font-weight: 900;
+
+    @include respond(desktop){
+      font-size: 42px;
+    }
   }
   .footer-subtitle{
     font-size: 18px;

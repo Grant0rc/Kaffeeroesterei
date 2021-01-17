@@ -6,8 +6,9 @@
     background-size: cover;
     background-position: top;
     @include side-padding;
-    @include respond(phone){
-      
+   
+    @include respond(desktop){
+      height: 65vh;
     }
   }
   .header-container{

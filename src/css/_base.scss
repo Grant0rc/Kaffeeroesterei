@@ -12,13 +12,9 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: normal;
-}
 
-main {
-  div {
-    @media (min-width: 768px) {
-      color: var(--div-color);
-    }
+  @include respond(desktop){
+    font-size: 18px;
   }
 }
 
@@ -26,6 +22,10 @@ h1{
   font-size: 64px;
   font-weight: 900;
   line-height: 75px;
+
+  @include respond(tablet){
+    font-size: 78px;
+  }
 
   @include respond(desktop){
     font-size: 92px;
@@ -37,6 +37,10 @@ h2{
   line-height: 34px;
   text-decoration: none;
 
+  @include respond(tablet){
+    font-size: 42px;
+  }
+
   @include respond(desktop){
     font-size: 48px;
   }
@@ -45,6 +49,10 @@ h2{
 h3 {
   font-size: 32px;
   font-weight: 900;
+
+  @include respond(tablet){
+    font-size: 37px;
+  }
 
   @include respond(desktop){
     font-size: 42px;
@@ -64,8 +72,23 @@ h3 {
   .navbar-logo {
     justify-self: left;
   }
-  .navbar-menu {
+  .navbar-menu-mobile {
     justify-self: right;
+
+    @include respond(tablet){
+      display: none;
+    }
+  }
+  .navbar-menu{
+    display: none;
+    font-size: 18px;
+
+    @include respond(tablet){
+      display: flex;
+    }    
+  }
+  .navbar-menu-text{
+    margin-right: 60px;
   }
 }
 
@@ -82,9 +105,21 @@ h3 {
 .introduction-container {
   @include side-padding;
   margin-top: 60px;
-  padding-bottom: 60px;
+  height: 62.5vh;
+
+  @include respond(desktop){
+    margin-top: 124px;
+  }
 
 }
+.introduction-sub-container{
+
+  @include respond(desktop){
+  display: flex;
+  justify-content: space-between;
+}
+}
+
 .intro-title1 {
     margin-bottom: 20px;
   }
@@ -100,14 +135,28 @@ h3 {
     margin-right: 3rem;
     display: inline-block;
   }
-  .when{
+.when{
     margin-top: 20px;
     margin-bottom: 40px;
     display: inline-block;
   }
 
+.bio-container{
+  @include side-padding;
+  padding-bottom: 60px;
+
+  @include respond(desktop){
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
 .bio-text{
     margin-bottom: 40px;
+
+    @include respond(desktop){
+      margin-right: 100px;
+    }
   }
 
 
@@ -121,6 +170,12 @@ h3 {
     width: 241px;
     display: flex;
     justify-content: flex-end;
+
+    @include respond(desktop){
+      height: auto;
+      width: 40vw;
+      margin-left: 126px;
+    }
 }
 
 .coffee-plant-img {
@@ -128,11 +183,17 @@ h3 {
   width: 241px;
   display: flex;
   justify-content: flex-start;
+
+  @include respond(desktop){
+    height: auto;
+    width: 40vw;
+    margin-right: 122px;
+  }
 }
 
 
 .origins-container{
-  height: 332px;
+  height: 50vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../img/FEND-Coffee-bags-2.png);
   background-size: cover;
@@ -140,6 +201,10 @@ h3 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  @include respond(desktop){
+    background-position: center;
+  }
 }
 
 .origins-text{
@@ -153,29 +218,78 @@ h3 {
 }
 
 .made-of-container{
-  height: 805px;
-  padding: 60px 25px 35px 25px;
+  height: 100vh;
+  @include side-padding;
+  padding-top: 60px;
+  padding-bottom: 35px;
   display: flex;
   flex-direction: column;
   align-items:center;
+
+  @include respond(desktop){
+    padding-top: 125px;
+    height: 100vh;
+  }
+}
+
+.made-of-sub-container{   /* contains coffee img and icons with */
+  margin-top: 35px;
+  height: 70%;
+  @include respond(desktop){
+    display: flex;
+    margin-top: 88px;
+    height: 70%;
+  }
 }
 .made-of-img-container{
   height: 284px;
-  width: 214px;
-  margin-top: 35px;
+  width: auto;
   margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include respond(desktop){
+    height: 521px;
+    margin-right: 175px;
+  }
 }
 .made-of-img{
 height: 100%;
+@include respond(desktop){
+  height: 100%;
+}
 }
 .made-of-icon-container{
   width: 100%;
+
+  
+}
+.made-of-icon-sub-container{
+  display: flex;
+
+  @include respond(desktop){
+  flex-direction: row;
+  }
 }
 .made-of-icons{
   margin: 0 15px 0 15px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-content: space-between;
+  text-align: center;
+  @include respond(desktop){
+    flex-direction: column;
+  }
+}
+.icon-desc{
+  width: 25%;
+
+  @include respond(desktop){
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+  }
 }
 .made-of-icon-desc{
   line-height: 18px;
@@ -183,6 +297,7 @@ height: 100%;
   display: flex;
   flex-direction: column;
 }
+
 .shop-button{
   margin-top: 40px;
   margin-bottom: 60px;
@@ -198,11 +313,16 @@ height: 100%;
 
 }
 .visit-us{
-  margin-top: 12px;
+  align-self: flex-start;
+  margin-top: 72px;
+
+  @include respond(desktop){
+    margin-top: 100px;
+  }
 }
 
 .map-container{
-  height: 231px;
+  height: 62.5vh;
   background-image: url(../img/map-placeholder.jpg);
   background-size: cover;
 }
