@@ -5,10 +5,24 @@
     background-color: black;
 
     @include respond(desktop){
-      height: 40vh;
+      height: 45vh;
+      padding-top: 125px;
+      padding-bottom: 125px;
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
+    }
+  }
+  .footer-logo-container{
+    display: block;
+  }
+  .footer-logo{
+    width: 35px;
+    height: 35px;
+
+    @include respond(desktop){
+      width: 70px;
+      height: 70px;
     }
   }
   .footer-title{
@@ -19,17 +33,56 @@
       font-size: 42px;
     }
   }
+
+.footer-where-and-when{
+  @include respond(desktop){
+    font-size: 14px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.footer-where{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-right: 3rem;
+    display: inline-block;
+  @include respond(desktop){
+    font-size: 14px;
+    margin-bottom: 27px;
+  }
+}
+.footer-when{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: inline-block;
+  @include respond(desktop){
+    font-size: 14px;
+  }
+}
   .footer-subtitle{
     font-size: 18px;
   }
   .footer-links-container{
     display: flex;
-  
+    
+    @include respond(desktop){
+      margin-top: 85px;
+      flex-direction: row-reverse;
+    }
   }
   .footer-links1{
     display: inline-block;
     margin-right: 7rem;
+    @include respond(desktop){
+      font-size: 14px;
+      margin-left: 7rem;
+      margin-right: 0;
+    }
   }
   .footer-links2{
     display: inline-block;
+    @include respond(desktop){
+      font-size: 14px;
+    }
   }
