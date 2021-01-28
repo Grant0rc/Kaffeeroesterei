@@ -1,3 +1,13 @@
 .hero {
-  color: red;
+  height: 50vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../img/FEND-Coffee-shop.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.origins-hero{
+  height: 50vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../img/FEND-Coffee-beans-hand-2.png);
+  background-size: cover;
+  background-position: center;
 }

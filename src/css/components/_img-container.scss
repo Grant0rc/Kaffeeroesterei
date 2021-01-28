@@ -1,0 +1,18 @@
+.coffee-machine-img{
+    height: 154px;
+    width: 241px;
+
+    @include respond(desktop){
+        height: 391px;
+        width: 612px;
+    }
+}
+
+.coffee-worker-img{
+    height: 320px;
+    margin-bottom: 60px;
+}
+
+.coffee-plant-img-2{
+    height: 160px;
+}
