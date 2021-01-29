@@ -1,0 +1,53 @@
+.gallery-container{
+    @include side-padding;
+    margin-top: 48px;
+  }
+
+.gallery{
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-gallery{
+    display: none;
+    @include respond(tablet){
+        display: flex;
+        height: 642px;
+    }
+}
+.image-gallery-mobile{
+    display: flex;
+
+    @include respond(tablet){
+        display: none;
+    }
+}
+
+.image-gallery-1{
+display: flex;
+flex-direction: column;
+padding: 8px;
+
+    @include respond(tablet){
+    flex-wrap: wrap;
+    }
+}
+
+.g-img{
+    width: 156px;
+    margin-bottom: 13px;
+    @include respond(desktop){
+        width: 298px;
+    }
+}
+
+.visit-us-gallery{
+    align-self: flex-start;
+    justify-self: flex-end;
+    margin-top: 60px;
+    margin-bottom: 35px;
+  
+    @include respond(desktop){
+      margin-top: 125px;
+    }
+  }
