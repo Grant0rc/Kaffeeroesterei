@@ -11,8 +11,25 @@
 .coffee-worker-img{
     height: 320px;
     margin-bottom: 60px;
+    @include respond(tablet){
+        height: 498px;
+        padding-right: 61px;
+    }
+    @include respond(desktop){
+        height: 675px;
+        padding-right: 122px;
+    }
 }
 
 .coffee-plant-img-2{
     height: 160px;
+
+    @include respond(tablet){
+        height: 318px;
+        padding-left: 60px;
+    }
+    @include respond(desktop){
+        height: 476px;
+        padding-left: 121px;
+    }
 }

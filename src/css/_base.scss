@@ -382,6 +382,12 @@ height: 100%;
   @include side-padding;
   padding-top: 60px;
 }
+.growing-areas-sub-container{
+  @include respond(tablet){
+    display: flex;
+    justify-content: space-between;
+  }
+}
 
 .growing-areas-text{
   margin-bottom: 60px;
@@ -390,10 +396,15 @@ height: 100%;
 
 .farmer-container{
   @include side-padding;
-}
-.farmer-container{
   margin-top: 60px;
+
+    @include respond(tablet){
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+    }
 }
+
 .farmer-text{
   margin-top: 26px;
   margin-bottom: 60px;
