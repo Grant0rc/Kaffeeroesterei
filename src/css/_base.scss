@@ -352,12 +352,22 @@ height: 100%;
 
 
 .bakery-container{
-  @include side-padding;
+@include side-padding;
+
+  @include respond(desktop){
+  padding-left: 415px;
+  padding-right: 415px;
+  margin-bottom: 125px;
+  }
 }
 
 .bakery-title{
   margin-top: 60px;
   margin-bottom: 20px;
+
+  @include respond(desktop){
+    margin-top: 125px;
+    }
 }
 
 .origins-intro-container{

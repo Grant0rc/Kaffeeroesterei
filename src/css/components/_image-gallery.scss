@@ -10,9 +10,10 @@
 
 .image-gallery{
     display: none;
+
     @include respond(tablet){
         display: flex;
-        height: 642px;
+        justify-content: space-between;
     }
 }
 .image-gallery-mobile{
@@ -29,7 +30,7 @@ flex-direction: column;
 padding: 8px;
 
     @include respond(tablet){
-    flex-wrap: wrap;
+        
     }
 }
 
