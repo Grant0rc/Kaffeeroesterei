@@ -9,6 +9,7 @@
 body {
 
   background:white;
+  background-color: white;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: normal;
@@ -418,4 +419,24 @@ height: 100%;
 .farmer-text{
   margin-top: 26px;
   margin-bottom: 60px;
+}
+
+.data-main{
+  padding-top: 133px;
+  padding-bottom: 120px;
+  @include side-padding;
+
+  @include respond(tablet){
+    padding-right: 120px;
+    padding-left: 120px;
+  }
+
+  @include respond(desktop){
+    padding-right: 310px;
+    padding-left: 310px;
+  }
+}
+
+.data-margin{
+  margin-top: 30px;
 }
