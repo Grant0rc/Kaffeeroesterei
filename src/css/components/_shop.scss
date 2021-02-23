@@ -1,0 +1,24 @@
+
+
+.product-list-container{
+    @include side-padding;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-container{
+    width: 40%;
+}
+
+.shop-title{
+    margin-bottom: 40px;
+    margin-top: 102px;
+}
+
+.shop-img-container{
+    width: 100%;
+}
+.shop-img{
+    width: 100%;
+}

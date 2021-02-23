@@ -1,5 +1,6 @@
 @import "variables";
 @import "base";
+@import "components/navbar";
 @import "components/hero";
 @import "components/header";
 @import "components/shop-preview";
@@ -7,6 +8,7 @@
 @import "components/img-container";
 @import "components/image-gallery";
 @import "components/contact";
+@import "components/shop";
 @import "mixins";
 
 :root {
