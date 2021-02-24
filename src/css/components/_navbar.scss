@@ -43,7 +43,7 @@
   }
   
   .noDisplay{
-    position: absolute;
+    position: fixed;
     top: -100vh;
     transition: all 0.3s;
   }

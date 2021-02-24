@@ -1,9 +1,13 @@
 .shop-preview-container{
-    height: 910px;
+    height: 115vh;
     width: 100%;
     @include side-padding;
     background-color: #1A1A1A;
     padding-top: 60px;
+
+    @include respond(desktop){
+      height: 100vh;
+    }
   }
   
   .shop-preview-title{
@@ -17,7 +21,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: auto;
+    height: 80vh;
 
     @include respond(desktop){
       height: 500px;
@@ -26,6 +30,7 @@
   }
   .product-name{
     font-size: 18px;
+    margin-top: 11px;
     
   }
   .prices{
@@ -47,7 +52,7 @@
 
     @include respond(desktop){
       height: 400px;
-      width: 21vw;
+      width: 16vw;
     }
   }
   .shop-preview-coffee-img{
@@ -57,7 +62,6 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
     flex-wrap: wrap;
 
     @include respond(tablet){
@@ -76,4 +80,8 @@
     display: flex;
     justify-content: center; 
     align-items: center;
+  }
+
+  .shop-preview-icon-container{
+    margin-bottom: 40px;
   }

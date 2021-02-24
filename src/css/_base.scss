@@ -13,6 +13,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: normal;
+  max-width: 1400px;
 
   @include respond(desktop){
     font-size: 18px;
@@ -68,9 +69,18 @@ button{
   border: none;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
 .container-align-center{
   display: flex;
   justify-content: center;
+
+  @include respond(desktop){
+    margin-top: 60px;
+  }
 }
 
 .text-white{
@@ -131,6 +141,7 @@ button{
   @include respond(desktop){
     display: flex;
     flex-direction: row-reverse;
+    margin-top: 100px;
   }
 }
 
@@ -149,14 +160,13 @@ button{
 }
 
 .coffee-shop-img {
-    height: 182px;
     width: 241px;
     display: flex;
     justify-content: flex-end;
 
     @include respond(desktop){
       height: auto;
-      width: 40vw;
+      width: 33vw;
       margin-left: 126px;
     }
 }
@@ -169,7 +179,7 @@ button{
 
   @include respond(desktop){
     height: auto;
-    width: 40vw;
+    width: 33vw;
     margin-right: 122px;
   }
 }
@@ -201,7 +211,7 @@ button{
 }
 
 .made-of-container{
-  height: 100vh;
+  height: 95vh;
   @include side-padding;
   padding-top: 60px;
   display: flex;
@@ -305,8 +315,8 @@ height: 100%;
 .visit-us{
   align-self: flex-start;
   justify-self: flex-end;
-  margin-top: 72px;
   margin-bottom: 35px;
+  margin-left: 24px;
 
   @include respond(desktop){
     margin-top: 100px;
