@@ -8,7 +8,7 @@ function shop(){
         ${products.map(
             (product)=>`
             <div class="product-container">
-            <a href="../Product/index.html?product=${product.id}">
+            <a href="../Coffee/index.html?product=${product.id}">
                 <div class="shop-img-container">
                     <img class="shop-img" src="${productImages[product.image]}" alt="test">
                 </div>

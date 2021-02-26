@@ -5,6 +5,9 @@
     background-color: #1A1A1A;
     padding-top: 60px;
 
+    @include respond(tablet){
+      height: auto;
+    }
     @include respond(desktop){
       height: 100vh;
     }
@@ -52,7 +55,7 @@
 
     @include respond(desktop){
       height: 400px;
-      width: 16vw;
+      width: 15vw;
     }
   }
   .shop-preview-coffee-img{

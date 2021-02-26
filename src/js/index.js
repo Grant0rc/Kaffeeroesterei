@@ -20,5 +20,3 @@ navCloser.addEventListener('click', toggleNavbar);
 
 
 console.log(navCloser);
-
-    

@@ -9,11 +9,13 @@
 body {
 
   background:white;
-  background-color: white;
+  background-color: lightcyan;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: normal;
   max-width: 1400px;
+  margin: 0 auto;
+  float: none;
 
   @include respond(desktop){
     font-size: 18px;
@@ -22,6 +24,7 @@ body {
 
 main {
   @include side-padding;
+  background-color: white;
 }
 
 h1{
@@ -88,12 +91,16 @@ a{
   text-decoration: none;
 }
 
+.bg-white{
+  background-color: white;
+}
+
 .introduction-container {
   @include side-padding;
-  margin-top: 60px;
+  padding-top: 60px;
 
   @include respond(desktop){
-    margin-top: 124px;
+    padding-top: 124px;
   }
 
 }
@@ -110,7 +117,7 @@ a{
   }
   
 .intro-title2 {
-    margin-top: 40px;
+    padding-top: 40px;
     margin-bottom: 12px;
   }
 
@@ -141,7 +148,7 @@ a{
   @include respond(desktop){
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 100px;
+    padding-top: 100px;
   }
 }
 
@@ -166,7 +173,7 @@ a{
 
     @include respond(desktop){
       height: auto;
-      width: 33vw;
+      width: 30vw;
       margin-left: 126px;
     }
 }
@@ -179,7 +186,7 @@ a{
 
   @include respond(desktop){
     height: auto;
-    width: 33vw;
+    width: 30vw;
     margin-right: 122px;
   }
 }
@@ -319,7 +326,7 @@ height: 100%;
   margin-left: 24px;
 
   @include respond(desktop){
-    margin-top: 100px;
+    padding-top: 100px;
   }
 }
 
