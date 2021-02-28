@@ -1,6 +1,8 @@
 import products from './products.json';
 import productImages from '../img/*.png';
 
+console.log("before function")
+
 function productDetails(){
     const productContainer = document.querySelector(".product-details");
     const productTemplate = ` 
@@ -29,7 +31,7 @@ function productDetails(){
     .join("")}
     `;
     productContainer.innerHTML = productTemplate;
-    console.log (productTemplate);
+    console.log ("after function");
 };
 
 productDetails();
