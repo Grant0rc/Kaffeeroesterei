@@ -39,14 +39,12 @@
     background-color: black;
     padding-left: 60px;
     display: flex;
-    transition: all 0.3s;
     flex-direction: column;
   }
   
   .noDisplay{
     position: fixed;
     top: -100vh;
-    transition: all 0.3s;
   }
   .navbar-close-button{
     height: 55px;
