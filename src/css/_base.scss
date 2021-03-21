@@ -79,6 +79,15 @@ a{
   color: black;
 }
 
+select{
+  height: 48px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5%;
+  background: black;
+  color: white;
+}
+
 //für mehrmalige anwendung
 
 .container-align-center{
@@ -446,10 +455,18 @@ height: 100%;
 
 .product-selector-container{
   padding-top: 75px;
+  @include respond(desktop){
+    display: flex;
+    padding-top: 150px;
+  }
 }
 
 .p-title-box{
   padding-top: 33px;
+
+  @include respond(desktop){
+    padding-top: 0;
+  }
 }
 
 .p-det-price{
@@ -459,13 +476,30 @@ height: 100%;
 .p-det-summ{
   padding-top: 33px;
   padding-bottom: 33px;
+
+  @include respond(desktop){
+    width: 30vw;
+  }
 }
 
-.selector{
+.selector-container{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  div + button{
+    margin-top: 30px;
+  }
+
+  @include respond(desktop){
+      flex-direction: row;
+      justify-content: start;
+      margin-top: 50px;
+      div + button{
+        margin-top: 0;
+        margin-left: 30px;
+      }
+    }
 }
 
 .cart-btn{
@@ -500,6 +534,11 @@ height: 100%;
   justify-content: space-around;
   p + p {
     margin-left: 30px;
+  }
+}
+.product-selector{
+  @include respond(desktop){
+      margin-left: 100px;
   }
 }
 

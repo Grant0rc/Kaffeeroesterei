@@ -39,9 +39,16 @@
     justify-content: center;
     width: 90vw;
     background-color: #D7BE9D;
+
+    @include respond(desktop){
+        width: 30vw;
+    }
 }
 
 .p-det-img{
     width: 90vw;
 
+    @include respond(desktop){
+        width: 30vw;
+    }
 }

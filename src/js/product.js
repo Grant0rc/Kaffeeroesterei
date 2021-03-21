@@ -26,7 +26,15 @@ function productDetails(){
                   <p class="p-det-price">${(product.price/100).toFixed(2)}€</p>
                 </div>
                 <div class="p-det-summ">Diese Kaffee-Sorte ist etwas ganz besonderes! Die anderen sind auch klasse, aber diese hier ist definitiv einzigartig. Also einfach bestellen und probieren!</div>
+                <div class="selector-container">
                 <div class="selector">
+                  <select>
+                    <option value="0">wie viel Kaffee brauchst du?</option>
+                    <option value="1">500g</option>
+                    <option value="2">1kg</option>
+                    <option value="3">5kg</option>
+                  </select>
+                </div>
                 <button class="cart-btn">In den Warenkorb</button>
 
                 </div>

@@ -4,6 +4,23 @@
         "productName": "Äthiopien",
         "price": 690,
         "image": "coffee-costa-rica",
+        "variants": [
+            {
+              "name": "500g",
+              "weight": 500,
+              "price": 690
+            },
+            {
+              "name": "1kg",
+              "weight": 1000,
+              "price": 1000
+            },
+            {
+              "name": "5kg",
+              "weight": 5000,
+              "price": 5000
+            }
+          ],
         "description": "MAYA Hochlandkaffee von MAYA Kaffee 1991 wird an den Hängen der Sierra Madre de Chiapas angebaut, ein Gebirgszug, der sich entlang der Pazifikküste im Süden Mexikos erstreckt. Hier haben sich indianische Kleinbauern mit Anbauflächen von ein bis drei Hektar Land in Kooperativen zusammengeschlossen und verzichten komplett auf Industriedünger und Pestizide. Schonend geröstet, entwickelt diese einzigartige Spezialität ein überraschend vielschichtiges Aromenspiel mit deutlichen Noten von Haselnuss. Als klassischer Aufguss ist unser MAYA Filterkaffee besonders ergiebig. 100% BIO aus kontrolliert ökologischem Anbau. DE-ÖKO-003 / Nicht-EU-Landwirtschaft."
     },
     {
@@ -11,6 +28,23 @@
         "productName": "Brasilien",
         "price": 880,
         "image": "coffee-costa-rica",
+        "variants": [
+            {
+              "name": "500g",
+              "weight": 500,
+              "price": 690
+            },
+            {
+              "name": "1kg",
+              "weight": 1000,
+              "price": 1000
+            },
+            {
+              "name": "5kg",
+              "weight": 5000,
+              "price": 5000
+            }
+          ],
         "description": "MAYA Hochlandkaffee von MAYA Kaffee 1991 wird an den Hängen der Sierra Madre de Chiapas angebaut, ein Gebirgszug, der sich entlang der Pazifikküste im Süden Mexikos erstreckt. Hier haben sich indianische Kleinbauern mit Anbauflächen von ein bis drei Hektar Land in Kooperativen zusammengeschlossen und verzichten komplett auf Industriedünger und Pestizide. Schonend geröstet, entwickelt diese einzigartige Spezialität ein überraschend vielschichtiges Aromenspiel mit deutlichen Noten von Haselnuss. Als klassischer Aufguss ist unser MAYA Filterkaffee besonders ergiebig. 100% BIO aus kontrolliert ökologischem Anbau. DE-ÖKO-003 / Nicht-EU-Landwirtschaft."
     },
     {
@@ -18,6 +52,23 @@
         "productName": "Chile",
         "price": 880,
         "image": "coffee-costa-rica",
+        "variants": [
+            {
+              "name": "500g",
+              "weight": 500,
+              "price": 690
+            },
+            {
+              "name": "1kg",
+              "weight": 1000,
+              "price": 1000
+            },
+            {
+              "name": "5kg",
+              "weight": 5000,
+              "price": 5000
+            }
+          ],
         "description": "MAYA Hochlandkaffee von MAYA Kaffee 1991 wird an den Hängen der Sierra Madre de Chiapas angebaut, ein Gebirgszug, der sich entlang der Pazifikküste im Süden Mexikos erstreckt. Hier haben sich indianische Kleinbauern mit Anbauflächen von ein bis drei Hektar Land in Kooperativen zusammengeschlossen und verzichten komplett auf Industriedünger und Pestizide. Schonend geröstet, entwickelt diese einzigartige Spezialität ein überraschend vielschichtiges Aromenspiel mit deutlichen Noten von Haselnuss. Als klassischer Aufguss ist unser MAYA Filterkaffee besonders ergiebig. 100% BIO aus kontrolliert ökologischem Anbau. DE-ÖKO-003 / Nicht-EU-Landwirtschaft."
     },
     {
@@ -25,6 +76,23 @@
         "productName": "Muddis Gewächshaus",
         "price": 5000,
         "image": "coffee-costa-rica",
+        "variants": [
+            {
+              "name": "500g",
+              "weight": 500,
+              "price": 690
+            },
+            {
+              "name": "1kg",
+              "weight": 1000,
+              "price": 1000
+            },
+            {
+              "name": "5kg",
+              "weight": 5000,
+              "price": 5000
+            }
+          ],
         "description": "MAYA Hochlandkaffee von MAYA Kaffee 1991 wird an den Hängen der Sierra Madre de Chiapas angebaut, ein Gebirgszug, der sich entlang der Pazifikküste im Süden Mexikos erstreckt. Hier haben sich indianische Kleinbauern mit Anbauflächen von ein bis drei Hektar Land in Kooperativen zusammengeschlossen und verzichten komplett auf Industriedünger und Pestizide. Schonend geröstet, entwickelt diese einzigartige Spezialität ein überraschend vielschichtiges Aromenspiel mit deutlichen Noten von Haselnuss. Als klassischer Aufguss ist unser MAYA Filterkaffee besonders ergiebig. 100% BIO aus kontrolliert ökologischem Anbau. DE-ÖKO-003 / Nicht-EU-Landwirtschaft."
     },
     {
@@ -32,6 +100,23 @@
         "productName": "Berliner Hinterhof",
         "price": 1337,
         "image": "coffee-costa-rica",
+        "variants": [
+            {
+              "name": "500g",
+              "weight": 500,
+              "price": 690
+            },
+            {
+              "name": "1kg",
+              "weight": 1000,
+              "price": 1000
+            },
+            {
+              "name": "5kg",
+              "weight": 5000,
+              "price": 5000
+            }
+          ],
         "description": "MAYA Hochlandkaffee von MAYA Kaffee 1991 wird an den Hängen der Sierra Madre de Chiapas angebaut, ein Gebirgszug, der sich entlang der Pazifikküste im Süden Mexikos erstreckt. Hier haben sich indianische Kleinbauern mit Anbauflächen von ein bis drei Hektar Land in Kooperativen zusammengeschlossen und verzichten komplett auf Industriedünger und Pestizide. Schonend geröstet, entwickelt diese einzigartige Spezialität ein überraschend vielschichtiges Aromenspiel mit deutlichen Noten von Haselnuss. Als klassischer Aufguss ist unser MAYA Filterkaffee besonders ergiebig. 100% BIO aus kontrolliert ökologischem Anbau. DE-ÖKO-003 / Nicht-EU-Landwirtschaft."
     },
     {
@@ -39,6 +124,23 @@
         "productName": "Getriebeöl",
         "price": 1200,
         "image": "coffee-costa-rica",
+        "variants": [
+            {
+              "name": "500g",
+              "weight": 500,
+              "price": 690
+            },
+            {
+              "name": "1kg",
+              "weight": 1000,
+              "price": 1000
+            },
+            {
+              "name": "5kg",
+              "weight": 5000,
+              "price": 5000
+            }
+          ],
         "description": "MAYA Hochlandkaffee von MAYA Kaffee 1991 wird an den Hängen der Sierra Madre de Chiapas angebaut, ein Gebirgszug, der sich entlang der Pazifikküste im Süden Mexikos erstreckt. Hier haben sich indianische Kleinbauern mit Anbauflächen von ein bis drei Hektar Land in Kooperativen zusammengeschlossen und verzichten komplett auf Industriedünger und Pestizide. Schonend geröstet, entwickelt diese einzigartige Spezialität ein überraschend vielschichtiges Aromenspiel mit deutlichen Noten von Haselnuss. Als klassischer Aufguss ist unser MAYA Filterkaffee besonders ergiebig. 100% BIO aus kontrolliert ökologischem Anbau. DE-ÖKO-003 / Nicht-EU-Landwirtschaft."
     },
     {
@@ -46,6 +148,23 @@
         "productName": "Viego",
         "price": 129,
         "image": "coffee-costa-rica",
+        "variants": [
+            {
+              "name": "500g",
+              "weight": 500,
+              "price": 690
+            },
+            {
+              "name": "1kg",
+              "weight": 1000,
+              "price": 1000
+            },
+            {
+              "name": "5kg",
+              "weight": 5000,
+              "price": 5000
+            }
+          ],
         "description": "MAYA Hochlandkaffee von MAYA Kaffee 1991 wird an den Hängen der Sierra Madre de Chiapas angebaut, ein Gebirgszug, der sich entlang der Pazifikküste im Süden Mexikos erstreckt. Hier haben sich indianische Kleinbauern mit Anbauflächen von ein bis drei Hektar Land in Kooperativen zusammengeschlossen und verzichten komplett auf Industriedünger und Pestizide. Schonend geröstet, entwickelt diese einzigartige Spezialität ein überraschend vielschichtiges Aromenspiel mit deutlichen Noten von Haselnuss. Als klassischer Aufguss ist unser MAYA Filterkaffee besonders ergiebig. 100% BIO aus kontrolliert ökologischem Anbau. DE-ÖKO-003 / Nicht-EU-Landwirtschaft. Nebenwirkungen beinhalten das Verschwinden von Gebäuden, Personen oder des gesamten Universums. Verzehr auf eigene Gefahr."
     },
     {
@@ -53,6 +172,23 @@
         "productName": "Montezumas Rache",
         "price": 1234,
         "image": "coffee-costa-rica",
+        "variants": [
+            {
+              "name": "500g",
+              "weight": 500,
+              "price": 690
+            },
+            {
+              "name": "1kg",
+              "weight": 1000,
+              "price": 1000
+            },
+            {
+              "name": "5kg",
+              "weight": 5000,
+              "price": 5000
+            }
+          ],
         "description": "MAYA Hochlandkaffee von MAYA Kaffee 1991 wird an den Hängen der Sierra Madre de Chiapas angebaut, ein Gebirgszug, der sich entlang der Pazifikküste im Süden Mexikos erstreckt. Hier haben sich indianische Kleinbauern mit Anbauflächen von ein bis drei Hektar Land in Kooperativen zusammengeschlossen und verzichten komplett auf Industriedünger und Pestizide. Schonend geröstet, entwickelt diese einzigartige Spezialität ein überraschend vielschichtiges Aromenspiel mit deutlichen Noten von Haselnuss. Als klassischer Aufguss ist unser MAYA Filterkaffee besonders ergiebig. 100% BIO aus kontrolliert ökologischem Anbau. DE-ÖKO-003 / Nicht-EU-Landwirtschaft."
     }
   ]
